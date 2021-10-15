@@ -1,0 +1,151 @@
+body {
+	background: url('../img/fondo2.jpg');
+
+  background-attachment: fixed;
+  
+
+}
+
+.text-blue {
+  color :#283583;
+}
+.minh-100 {
+  height: 100vh;
+}
+
+.input-per{
+  opacity: 0.9;
+  background: #cccdd8;
+  color: #2e3783;
+  border: 5px solid #403f83;
+  width: 300px;
+
+}
+
+.boton-per{
+
+  background: #9c0133; 
+  color: white;
+    border: 3px solid #403f83;
+
+}
+
+.boton-per2 , .fondo-per {
+  opacity: 0.9;
+  background: #cccdd8;
+  color: #2e3783;
+  border: 5px solid #403f83;
+  padding: 10px;
+  margin-bottom: 9px;
+  
+
+}
+
+.fondo-per{
+  border:  5px solid #484b5d;
+  box-shadow: inset 1px 1px 6px   #484b5d;
+  padding: 0px;
+  margin: auto;
+
+ 
+  overflow-y: auto;
+ 
+
+}
+.boton-per2:hover{
+
+  background: #403f83; 
+  color: white;
+    border:  5px solid #403f83;
+
+}
+
+.boton-per:hover{
+
+  background: #9c0133; 
+  color: white;
+    border: 3px solid #403f83;
+
+}
+
+.input-per::placeholder {
+  
+  color: #403f83;
+  text-align: center;
+  font-weight: bold; 
+  
+
+
+}
+
+
+.container-center {
+  background: url('../img/principal2.png');
+ 
+  height: 100%;
+
+  background-repeat: no-repeat;
+/*  background-attachment: fixed; */
+  background-position: center;
+  /* IMPORTANTE */
+  text-align: center;
+
+
+}
+
+.btn-res , .btn-res2 {
+
+  background: #b82d56;
+  width: 38px;
+
+  border:  1px solid #484b5d;
+  color: white;
+   box-shadow: .5px .5px .5px 3px black;
+   float: left;
+   margin-right: 6px;
+
+  
+}
+
+.btn-res2{
+  float: right;
+  margin-right: 3px;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+	background: url('../img/fondo.png');
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  }
+   .fondo-per{
+    max-height:  350px !important; 
+    max-width: 330px;
+    padding: 50px
+  
+    margin: auto;
+    overflow-y: auto;
+
+   }
+
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+body {
+	background: url('../img/fondo.png');
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.fondo-per{
+    max-height: 50%;
+    overflow-y: scroll;
+   }
+
+}
+
+
+
